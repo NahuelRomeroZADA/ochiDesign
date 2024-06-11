@@ -7,12 +7,12 @@ const Marquee = () => {
             <motion.h1  inital={{x: 0}} 
                         animate={{x: "-100%"}} 
                         transition={{ease: "linear", repeat: Infinity, duration: 5}} 
-                        className="text-[12vw] leading-none font-['Futura'] uppercase pt-5 mb-5 font-semibold">we are ochi</motion.h1>
+                        className="text-[22vw] leading-none uppercase pt-1 mb-5 font-semibold">we are ochi</motion.h1>
             
             <motion.h1  inital={{x: 0}} 
                         animate={{x: "-100%"}} 
                         transition={{ease: "linear", repeat: Infinity, duration: 5}} 
-                        className="text-[12vw] leading-none font-['Futura'] uppercase pt-5 mb-5 font-semibold">we are ochi</motion.h1>
+                        className="text-[22vw] leading-none uppercase pt-1 mb-5 font-semibold">we are ochi</motion.h1>
         </div>
 
     </div>
