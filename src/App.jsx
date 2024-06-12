@@ -1,8 +1,10 @@
-import Navbar from "./components/Navbar"
-import LandingPage from "./components/LandingPage"
-import Marquee from "./components/Marquee"
-import About from "./components/About"
-import Eyes from "./components/Eyes.jsx"
+import Navbar from "./components/Navbar";
+import LandingPage from "./components/LandingPage";
+import Marquee from "./components/Marquee";
+import About from "./components/About";
+import Eyes from "./components/Eyes.jsx";
+import Featured from './components/Featured.jsx';
+import Cards from "./components/Cards.jsx";
 
 
 const App = () => {
@@ -13,8 +15,11 @@ const App = () => {
         <Marquee/>
         <About/>
         <Eyes/>
+        <Featured/>
+        <Cards/>
     </div>
   )
 }
 
 export default App
+
